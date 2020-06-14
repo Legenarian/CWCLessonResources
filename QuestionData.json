@@ -1,0 +1,52 @@
+[
+	{
+		"question": "What's the keyword for declaring a new variable?",
+		"answers": [
+			"var",
+			"v",
+			"variable"
+		],
+		"correctAnswerIndex": 0,
+		"feedback": "Since using variable would take forever to write each time and to use 'v' would make it basically unreadable, we use 'var'."
+	},
+	{
+		"question": "What's the keyword for declaring a new constant?",
+		"answers": [
+			"con",
+			"let",
+			"var"
+		],
+		"correctAnswerIndex": 1,
+		"feedback": "Personally, 'let' makes much more sense than the other options as 'con' could mean content and 'var', well, it's used to declare a variable."
+	},
+	{
+		"question": "What's the keyword for declaring a new function?",
+		"answers": [
+			"func",
+			"def",
+			"method"
+		],
+		"correctAnswerIndex": 0,
+		"feedback": "This is Apple's Swift Programming Language, not Python people. And for 'method'? How long does it take to type that down?"
+	},
+	{
+		"question": "What's the main difference of using a structure instead of a class??",
+		"answers": [
+			"Classes occure in structures",
+			"Structs are reference types, classes are value types",
+			"Structs are value types, classes are reference types"
+		],
+		"correctAnswerIndex": 2,
+		"feedback": "It's kind of obvious that Structures and Classes' relationship is not like the one in real life."
+	},
+	{
+		"question": "How do you do calculations in Swift?",
+		"answers": [
+			"Add: +, Subtract: -, Multiply: x, Divide: /",
+			"Add: +, Subtract: -, Multiply: *, Divide: ÷",
+			"Add: +, Subtract: -, Multiply: *, Divide: /"
+		],
+		"correctAnswerIndex": 2,
+		"feedback": "If 'x' was to multiply, then how would anybody know if x means multiply or if 'x' means the letter 'x'? (I mean, how do you even type ÷?)"
+	}
+]

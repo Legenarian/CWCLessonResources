@@ -37,7 +37,7 @@
 			"Structs are value types, classes are reference types"
 		],
 		"correctAnswerIndex": 2,
-		"feedback": "It's kind of obvious that Structures and Classes' relationship is not like the one in real life."
+		"feedback": "When you pass around a class, it's copies the memory location. When you pass around a structure, it copies the actual data."
 	},
 	{
 		"question": "How do you do calculations in Swift?",
@@ -48,5 +48,15 @@
 		],
 		"correctAnswerIndex": 2,
 		"feedback": "If 'x' was to multiply, then how would anybody know if x means multiply or if 'x' means the letter 'x'? (I mean, how do you even type ÷?)"
+	}
+	{
+		"question": "What is a Type method?",
+		"answers": [
+			"A method that can only be declared in that Type",
+			"A method that is called on an instance of the Type",
+			"A method that can be called on the Type directly"
+		],
+		"correctAnswerIndex": 2,
+		"feedback": "Type methods use the static keyword in their declaration and can be called directly on the Class or Structure."
 	}
 ]
